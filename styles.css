@@ -27,6 +27,28 @@
     color: black; 
 }
 
+#question {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.questionOrder {
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.firstQuestion {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #startTime {
     margin-left: 780px;
     font-size: 50px;

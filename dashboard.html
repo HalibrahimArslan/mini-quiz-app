@@ -26,12 +26,21 @@
 
             <div class="col" id="timing" >
               <p > <label id="name"> </label> <label id="surname"> </label> <label id="startTime">30:00</label></p>
-                document. 
               </div>
 
                <div class="col mt-5 " id="question" >
-                <tableQuestion class="tableQuestion" ></tableQuestion>
-               </div>
+                  <div class="questionOrder">
+                  1/10
+                  </div>  
+
+                  <div class="firstQuestion">
+                    Soru 1: Türkiyenin başkenti neresidir ?
+                  </div>
+
+                  <div class="questionAnswer">
+                    <TableQuestion class="tableQuestion" ></TableQuestion>
+                  </div>
+              </div>
 
               <div class="col mt-5 bg-success text-white" id="limited" >
                 <div class="progress">
@@ -41,19 +50,17 @@
 
           </div>
           <div class="col col-lg-3 bg-warning text-dark" id="answerBar">
-           
+            <answer class="answer" ></answer>
             <div id="button" >
                 <button type="button" class="btn btn-outline-danger">Sınavı Tamamla</button>
             </div>
-         <div class="answer">
-          
-         </div>
         </div>
 
         </div>
       </div>
       <script type="text/javascript" src="./dashboard.js"></script>
       <script type="text/javascript" src="./answer.js"></script>
+      <script type="text/javascript" src="./question.js"></script>
 
 </body>
 </html>
