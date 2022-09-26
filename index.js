@@ -26,10 +26,11 @@ function submitClick(){
         localStorage.setItem('formSurname',formSurname);
 
         console.log(formName,formSurname);
-        window.location.assign("/dashboard.html")
+        window.location.assign("/dashboard.html")   
        
     })
 }
+
 
 changeControl();
 submitClick();
