@@ -3,16 +3,8 @@ function control(formId){
     console.log(document.getElementById(formId).querySelectorAll(':invalid'));
 }
 
-function changeControl(){
-    let name;
-    const formName = document.getElementById('name');
-
-    formName.addEventListener('change',() => {
-        
-    })
-     
-
-
+function clearLocalStorage(){
+    localStorage.clear();
 }
 
 function submitClick(){
@@ -24,14 +16,13 @@ function submitClick(){
 
         localStorage.setItem('formName',formName);
         localStorage.setItem('formSurname',formSurname);
+        localStorage.setItem('number',1);
 
-        console.log(formName,formSurname);
         window.location.assign("/dashboard.html")   
        
     })
 }
 
-
-changeControl();
 submitClick();
+clearLocalStorage();
 
